@@ -6,7 +6,7 @@ This small dapp project shows how to build a lottery game smart contract with so
 ## Quick Start
 
 1. Install [MetaMask](https://metamask.io/download/) for your browser.
-2. Connect MetaMask to a Ethereum testnet (e.g. Ropsten) or a local devnet (e.g. [Ganache](https://trufflesuite.com/ganache/))
+2. Connect MetaMask to a Ethereum network. (Perhaps you should first try playing with the game contract on a testnet like Ropsten or a local devnet like [Ganache](https://trufflesuite.com/ganache/))
 3. Run the following commands to get started:
 ```
 $ git clone https://github.com/tranminhkhoa/lottery-dapp.git
