@@ -37,7 +37,7 @@ $ npm start
 5. Bob stops the lottery by calling `endLottery` method.
 6. Now everyone can see the result by calling `getWinningNumber` method and who the winners are by calling `getWinners` method.
 
-## To-Do list
+## To-Do List
 - Add error handler to show error messages in the app.
 
 ## License
