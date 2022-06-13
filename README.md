@@ -19,14 +19,14 @@ $ npm start
 (You can also deploy and interact with the lottery contact by copying the Solidity source code inside `./lottery-dapp/demo/Lottery.sol.js` and paste it to [Remix](https://remix.ethereum.org))
 
 ## Game Rules
-- There are two actors in this lottery game: the **dealer** and the **player**.
-- A dealer is the account deploying the lottery game contract. A player can be any other account.
-- There is only one dealer and at most 100 players in an instance of the smart contract/game.
-- The dealer can stop the game but cannot play the game.
-- A player starts the game by depositing 1 eth to the smart contract address and betting a number from 0 to 99.
-- No player can bet twice.
-- When the dealer stops the game, the players who bet the number `x = block.timestamp % 100` will win the game. If there is no winner, the dealer takes 100% of deposited fund. If there is N winners, the dealer takes 10% of deposited fund, 90% left will be equally shared by N winners.
-- No one can play if the game is closed.
+- There are two actors in this lottery game: the **dealer** and the **player**. A dealer is the account deploying the lottery game contract. A player can be any other account.
+- There is only one dealer and at most 100 players in an instance of the lottery game.
+- Only the dealer can end the lottery.
+- The dealer cannot join the lottery.
+- A player joins the lottery by depositing `1 eth` to the smart contract address and betting a number from 0 to 99.
+- No player can join/bet twice.
+- When the dealer ends the lottery, the players who bet the number `x = block.timestamp % 100` will win the lottery. If there is no winner, the dealer takes 100% of deposited fund. If there is `N` winners, the dealer takes 10% of deposited fund, 90% left will be equally shared by `N` winners.
+- After the dealer ends the lottery, no one can join the lottery or modify the states of the contract.
 
 ## How to Play
 
