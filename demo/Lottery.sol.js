@@ -60,6 +60,10 @@ contract Lottery {
         return address(this).balance;
     }
 
+    function getDealer() public view returns(address payable) {
+        return dealer;
+    }
+
     function getPlayers() public view returns(address payable[] memory, uint8[] memory) {
         return (players, bets);
     }
