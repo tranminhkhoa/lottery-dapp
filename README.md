@@ -34,9 +34,9 @@ $ npm start
 2. After the contract has been successfully deployed, the contract information is shown as below. The dealer can broadcast the `contract address` on websites/forums/chat groups so that everyone can join the lottery.
 ![alt text](./screenshots/info.jpg)
 3. A player Alice starts the game by following steps described in Quick Start section above, she then switches to `Connect` tab and pastes the contract address in to the `contract_address` textbox and press `Connect` button.
-4. Now Alice calls `joinLottery` method to bet a number and deposit 1 eth to the contract.
+4. Alice plays the game by calling `joinLottery` method to bet a number and deposit 1 eth to the contract.
 5. Bob stops the lottery by calling `endLottery` method.
-6. Now everyone can see the result by calling `getWinningNumber` method and who the winners are by calling `getWinners` method.
+6. Everyone now can see the result by calling `getWinningNumber` method and who the winners are by calling `getWinners` method.
 
 ## To-Do List
 - Add error handler to show error messages in the app.
