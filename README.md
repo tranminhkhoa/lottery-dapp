@@ -31,7 +31,7 @@ $ npm start
 ![alt text](./screenshots/gui.jpg)
 
 1. A dealer Bob follows steps in Quick Start section above to open the browser app for the game, he presses `Publish` button in `Publish` tab and select an account in MetaMask wallet to deploy the game contract to some ethereum testnet.
-2. After the contract has been successfully deployed, the contract information is shown as below. The dealer can broadcast the `contract address` on websites/forums/chat groups so that everyone can join the lottery.
+2. After the contract has been successfully deployed, the contract information will be shown as below. The dealer can broadcast the `contract address` on websites/forums/chat groups so that everyone can join the lottery.
 ![alt text](./screenshots/info.jpg)
 3. A player Alice starts the game by following steps described in Quick Start section above, she then switches to `Connect` tab and pastes the contract address in to the `contract_address` textbox and press `Connect` button.
 4. Alice plays the game by calling `joinLottery` method to bet a number and deposit 1 eth to the contract.
