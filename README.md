@@ -44,6 +44,7 @@ $ npm start
 
 ## To-Do List
 - Add error handler to show error messages in the app.
+- Support tokens.
 
 ## License
 
